@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>علی اسمعیلی</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="ax-background position-fixed">
+        <div class="ax-icon-seo"></div>
+        <div class="ax-icon-seo"></div>
+    </div>
+    <div class="container-xl ax-inner my-xl-5">
+        <div id="axapp" class="ax-inner-content">
+
+            <!--  Navigation -->
+            <div class="navbar navbar-expand-lg ax-nav row d-flex justify-content-space-around align-items-center py-4">
+                <div class="col-6 mx-auto col-md-4 ax-nav-logo-section d-flex justify-content-start mr-4">
+                    <div class="ax-nav-logo ax-icon-logo" :class="{'ax-logo-fixed' : logo_fixed}"></div>
+                </div>
+                <div class="col-2 d-md-none d-flex mx-auto col-md-4 ax-nav-logo-section">
+                    <div class="ax-nav-logo"></div>
+                </div>
+                <button @click="ax_fixed_logo()" class="col col-md-4 d-lg-none ax-menu-button btn collapsed" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="ax-icon-menu"></span>
+                </button>
+                <div class="col-lg d-lg-flex justify-content-end collapse navbar-collapse ax-mobile" id="navbar">
+                    <ul class="navbar-nav ax-list-desktop">
+                        <li class="nav-item"><a href="#">درباره من</a></li>
+                        <li class="nav-item"><a href="#">رزومه</a></li>
+                        <li class="nav-item"><a href="#">نمونه‌کار‌ها</a></li>
+                        <li class="nav-item"><a href="#">بلاگ</a></li>
+                        <li class="nav-item"><a href="#">هزینه ها</a></li>
+                        <li class="nav-item"><a href="#">تماس</a></li>
+                        <li class="nav-item"><a href="#"><i class="ax-icon-search"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- End Navigation -->
+
+
+            <div class="ax-hero row pb-5 pt-0 py-md-5 px-3 px-md-0">
+                <div class="col-10 col-md-4 ax-circle-hero">
+                    <img src="assets/images/alixo.jpg" alt="عکس علی اسماعیلی">
+                </div>
+                <div class="col-12 col-md-5 mr-md-4 ax-hero-content">
+                    <h1 class="h1">علی اسمعیلی</h1>
+                    <h2 class="h2">برنامه نویس و تولید کننده محتوا</h2>
+                    <p class="ax-hero-p">آقای رهگذر نویسند‌ه‌ای خیالی است که متنی موقت برای طراحان گرافیک و وبسایت می‌نویسد. این متن یک متن ساختگی است، که در طرح های اولیه گرافیکی و پیاده سازی اولیه وب سایت ها استفاده می‌شود. آقای رهگذر در مورد همه چیز اطلاعات دارد از صنعت چاپ سنتی و صنعتی گرفته تا تکنولوژی‌های روز دنیا که هرکدام کاربردهای مختلفی دارند که هدف اصلی هریک بهبود شرایط زندگی شماست. </p>
+                    <div class="ax-hero-btn d-flex justify-content-around justify-content-md-start">
+                        <a class="btn ax-cv-btn mx-md-1">
+                            دانلود رزومه
+                        </a>
+                        <a class="btn ax-call-btn">
+                            تماس
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="ax-what-working">
+                <h2 class="h2 ax-title-h2">من چه کارهایی انجام میدم?</h2>
+                <div class="row">
+                    <div class="col-12 col-lg-4 col-md-6">
+                        <div class="ax-what-box mx-auto ml-lg-0 my-lg-5 my-md-3 my-2">
+                            <div class="ax-what-icon ax-icon-marketing"></div>
+                            <div class="ax-what-txt">
+                                مشاوره مارکتینگ و طراحی
+                            </div>
+                            <div class="ax-what-content">
+                                آقای رهگذر نویسند‌ه‌ای خیالی است که متنی موقت برای طراحان گرافیک و وبسایت می‌نویسد. این متن درون وبسایت شما گذاشته می‌شود تا فرم کلی آن را به شما نشان دهد.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6">
+                        <div class="ax-what-box mx-auto my-md-3 my-2">
+                            <div class="ax-what-icon ax-icon-illustration"></div>
+                            <div class="ax-what-txt">
+                                طراحی وب سایت
+                            </div>
+                            <div class="ax-what-content">
+                                آقای رهگذر نویسند‌ه‌ای خیالی است که متنی موقت برای طراحان گرافیک و وبسایت می‌نویسد. این متن درون وبسایت شما گذاشته می‌شود تا فرم کلی آن را به شما نشان دهد.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6 my-lg-5">
+                        <div class="ax-what-box mx-auto mr-lg-0 my-lg-5 my-2">
+                            <div class="ax-what-icon ax-icon-seo"></div>
+                            <div class="ax-what-txt">
+                                طراحی نرم افزار
+                            </div>
+                            <div class="ax-what-content">
+                                آقای رهگذر نویسند‌ه‌ای خیالی است که متنی موقت برای طراحان گرافیک و وبسایت می‌نویسد. این متن درون وبسایت شما گذاشته می‌شود تا فرم کلی آن را به شما نشان دهد.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6  mx-auto">
+                    <div class="ax-what-box ax_endbox mx-auto my-2">
+                        <div class="ax-what-icon ax-icon-ux"></div>
+                        <div class="ax-what-txt">
+                            تولید محتوای چند رسانه‌ای
+                        </div>
+                        <div class="ax-what-content">
+                            آقای رهگذر نویسند‌ه‌ای خیالی است که متنی موقت برای طراحان گرافیک و وبسایت می‌نویسد. این متن درون وبسایت شما گذاشته می‌شود تا فرم کلی آن را به شما نشان دهد.
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+            </div>
+            <div class="ax-cool-stats">
+                <h2 class="h2 ax-title-h2"> آمار باحال </h2>
+               <div class="row">
+                    <div class="col-sm-6 col-lg-3 my-2">
+                        <div class="ax-funy-box">
+                            <div class="ax-coolbox-icon ax-icon-heart"></div>
+                            <div class="ax-coolbox-title">مشتریان خوشحال</div>
+                            <div class="ax-coolbox-num">۷۲</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 my-2">
+                        <div class="ax-funy-box">
+                            <div class="ax-coolbox-icon ax-icon-watch"></div>
+                            <div class="ax-coolbox-title">سال فعالیت</div>
+                            <div class="ax-coolbox-num">۹</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 my-2">
+                        <div class="ax-funy-box">
+                            <div class="ax-coolbox-icon ax-icon-star"></div>
+                            <div class="ax-coolbox-title">مدارک</div>
+                            <div class="ax-coolbox-num">۷</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 my-2">
+                        <div class="ax-funy-box">
+                            <div class="ax-coolbox-icon ax-icon-bowl"></div>
+                            <div class="ax-coolbox-title">چای مصرف شده</div>
+                            <div class="ax-coolbox-num">۱۳۹۹</div>
+                        </div>
+                    </div>
+               </div>
+            </div>
+            <div class="ax-videobox my-5 position-relative d-flex justify-content-center">
+                <div class="ax-videobox-image position-absolute"></div>
+                <div class="ax-videobox-content position-relative d-flex justify-content-center align-items-center flex-column ">
+                    <div class="ax-videobox-icon ax-icon-play"></div>
+                    <div class="ax-videobox-title">کمی بیشتر با من</div>
+                </div>
+                
+            </div>
+
+        </div>
+
+        <div class="ax-foot-hr mw-100"></div>
+            <footer class="w-100 h-100 row align-items-center">
+                <div class="col-md-4 col-12 d-lg-block d-none mr-5 my-3">
+                    <a href="#" class="btn ax-foot-design">توضیحات طرح سایت</a>
+                </div>
+                <div class="ax-social col-md-4 col-12 d-flex justify-content-center align-items-center mx-lg-0 mx-auto">
+                    <a href="#" class="ax-social-icon ax-icon-telegram"></a>
+                    <a href="#" class="ax-social-icon ax-icon-instagram"></a>
+                    <a href="#" class="ax-social-icon ax-icon-twitter"></a>
+                    <a href="#" class="ax-social-icon ax-icon-linkedin"></a>
+                    <a href="#" class="ax-social-icon ax-icon-facebook"></a>
+                    <a href="#" class="ax-social-icon ax-icon-youtube"></a>
+                    <a href="#" class="ax-social-icon ax-icon-github"></a>
+                </div>
+                <a href="#" class="col-12 ax-foot-mobile-btn d-lg-none d-flex justify-content-center my-3">توضیحات طرح سایت</a>
+                
+            </footer>
+    </div>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/vue@3.0.3/dist/vue.global.prod.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

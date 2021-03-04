@@ -5,21 +5,4 @@ from django.http import HttpResponse
 
 
 def home(request):
-    context={
-        "articles":[
-            {
-                "title":"HI",
-                "id":12,
-                "content": "Hello World"
-            },{
-                "title":"Hello",
-                "id":13,
-                "content": "Hello Guys"
-            },{
-                "title":"Hello",
-                "id":13,
-                "content": "Hello Guys"
-            }
-        ]
-    }
-    return render(request,"blog/home.html",context)
+    return render(request,"blog/home.html")

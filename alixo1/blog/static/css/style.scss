@@ -290,7 +290,7 @@ $grey4:#262626;
 /* Body */
 body {
     font-family: IRANSans;
-    background: linear-gradient(to top,$mytheme,$mytheme2);
+    background: $mytheme;
     direction: rtl;
     transition: 0.5s ease-in-out !important;
 }

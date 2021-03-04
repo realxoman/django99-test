@@ -237,8 +237,7 @@ td:not([align]), th:not([align]) {
 /* Body */
 body {
   font-family: IRANSans;
-  background: -webkit-gradient(linear, left bottom, left top, from(#1E90FF), to(#0064D5));
-  background: linear-gradient(to top, #1E90FF, #0064D5);
+  background: #1E90FF;
   direction: rtl;
   -webkit-transition: 0.5s ease-in-out !important;
   transition: 0.5s ease-in-out !important;
